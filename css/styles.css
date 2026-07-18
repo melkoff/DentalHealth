@@ -504,14 +504,11 @@ html{scroll-behavior:smooth;}
   .chatw{right:16px;bottom:94px;}
 }
 
-@media (max-width:991px){
-  .home img{
-    object-fit: contain;
-  }
+@media (max-width:768px){
 
   .brand__logo{
     width: 150px;
-    height: 50px;
+    height: 32px;
   }
 }
 
