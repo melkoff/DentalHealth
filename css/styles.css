@@ -10,8 +10,8 @@
   --teal-100:#DCE7DF;   /* tint */
 
   /* Accent — CTA only */
-  --coral:#C5674A;
-  --coral-600:#AE5136;  /* hover */
+  --coral:#ffb000;
+  --coral-600:#cc8b00;  /* hover */
   --coral-100:#F3DFD5;
 
   /* Emergency — reserved */
@@ -98,7 +98,7 @@ img.hero__photo,img.ecard__media,img.team__photo,img.smile{width:100%;object-fit
 .btn--emergency{background:var(--emergency);color:#fff;}
 .btn--emergency:hover{background:var(--emergency-600);color:#fff;}
 .btn--onteal{background:var(--coral);color:#fff;}
-.btn--onteal:hover{background:var(--coral-600);}
+.btn--onteal:hover{background:var(--coral-600);color:#fff;}
 .btn--block{width:100%;}
 .btn--sm{min-height:44px;font-size:15px;padding:0 20px;}
 .btn svg{width:18px;height:18px;flex:none;}
