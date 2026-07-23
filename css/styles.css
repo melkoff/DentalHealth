@@ -415,7 +415,6 @@ html{scroll-behavior:smooth;}
 .drawer.is-open .drawer__scrim{opacity:1;}
 .drawer.is-open .drawer__panel{transform:none;}
 .drawer__top{display:flex;align-items:center;justify-content:space-between;padding:6px 4px 14px;border-bottom:1px solid var(--line);}
-.drawer__top .brand__logo{height:40px;}
 .drawer__close{width:42px;height:42px;border:none;background:none;font-size:28px;line-height:1;color:var(--teal-900);cursor:pointer;}
 .drawer__nav{display:flex;flex-direction:column;padding:6px 0;}
 .drawer__link,.drawer__toggle{display:flex;align-items:center;justify-content:space-between;width:100%;background:none;border:none;text-align:left;font-family:var(--sans);font-size:17px;font-weight:600;color:var(--teal-900);padding:15px 6px;border-bottom:1px solid var(--line);cursor:pointer;}
