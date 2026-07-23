@@ -160,6 +160,8 @@ img.hero__photo,img.ecard__media,img.team__photo,img.smile{width:100%;object-fit
 .masthead__phone-desktop svg{width:16px;height:16px;color:var(--teal-500);}
 .masthead__phone-mobile{display:none;align-items:center;gap:8px;font-weight:700;color:var(--teal-900);font-size:16px;}
 .masthead__phone-mobile svg{width:16px;height:16px;color:var(--teal-500);}
+.masthead__location-mobile{display:none;align-items:center;gap:8px;font-weight:700;color:var(--teal-900);font-size:16px;}
+.masthead__location-mobile svg{width:16px;height:16px;color:var(--teal-500);}
 .burger{display:none;width:44px;height:44px;border:1px solid var(--line);border-radius:12px;background:var(--surface);align-items:center;justify-content:center;flex-direction:column;gap:4px;}
 .burger span{width:18px;height:2px;background:var(--teal-900);border-radius:2px;}
 
@@ -442,6 +444,7 @@ html{scroll-behavior:smooth;}
 @media (max-width:1140px){
 .masthead__phone-mobile{display:inline-flex;}
 .masthead__phone-desktop{display:none;}
+.masthead__location-mobile{display:inline-flex; margin-right: 4px;}
 }
 
 @media (max-width:991px){
@@ -515,10 +518,19 @@ html{scroll-behavior:smooth;}
 }
 
 @media (max-width:768px){
-
   .brand__logo{
     width: 150px;
     height: 32px;
+  }
+}
+
+@media (max-width:576px){
+  .brand__logo{
+    width: 130px;
+    height: auto;
+  }
+  .masthead__actions .btn{
+    font-size: 12px;
   }
 }
 
