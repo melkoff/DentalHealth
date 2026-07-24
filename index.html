@@ -211,7 +211,7 @@
                   <p class="hero__sub">Same-day emergency care. Ppo insurances accepted. Evening &amp; weekend hours - built around busy schedules.</p>
                   <div class="hero__cta">
                     <a class="btn btn--primary" target="_blank" href="https://share.google/ndkP7ydHJ0WyoA7s1">Book Appointment</a>
-                    <a class="btn btn--secondary" href="#offers">New Patient Specials</a>
+                    <a class="btn btn--secondary" href="special-offers.html">New Patient Specials</a>
                   </div>
                   <div class="hero__trust">
                     <div class="trust-rating">
@@ -222,7 +222,7 @@
                       </span>
                     </div>
                     <div class="trust-badge">
-                      <span class="trust-badge__seal">ADA</span>
+                      <span class="logo-chip" style="height:54px;padding:0 15px"><img src="assets/logos/cert-ada.png" alt="ADA — American Dental Association member" style="height:34px"></span>
                       <span class="trust-badge__txt">Member,<br>American Dental Assn.</span>
                     </div>
                   </div>
@@ -256,7 +256,7 @@
               </div>
               <div class="empathy__grid">
                 <article class="ecard ecard--cosmetic">
-                  <img class="ecard__media" src="https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2?q=80&w=800&auto=format&fit=crop" alt="Person smiling with confidence" loading="lazy">
+                  <div class="ecard__media"><img class="ecard__img" src="https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2?q=80&w=800&auto=format&fit=crop" alt="Person smiling with confidence" loading="lazy"></div>
                   <div class="ecard__body">
                     <p class="ecard__tag">Cosmetic</p>
                     <h3 class="ecard__quote">“I'm embarrassed to smile”</h3>
@@ -265,7 +265,7 @@
                   </div>
                 </article>
                 <article class="ecard ecard--emergency">
-                  <img class="ecard__media" src="https://images.unsplash.com/photo-1567516364473-233c4b6fcfbe?q=80&w=800&auto=format&fit=crop" alt="Reassured, comfortable patient" loading="lazy">
+                  <div class="ecard__media"><img class="ecard__img" src="https://images.unsplash.com/photo-1567516364473-233c4b6fcfbe?q=80&w=800&auto=format&fit=crop" alt="Reassured, comfortable patient" loading="lazy"></div>
                   <div class="ecard__body">
                     <p class="ecard__tag">Emergency</p>
                     <h3 class="ecard__quote">“I have pain or discomfort”</h3>
@@ -274,7 +274,7 @@
                   </div>
                 </article>
                 <article class="ecard ecard--general">
-                  <img class="ecard__media" src="https://images.unsplash.com/photo-1611695434369-a8f5d76ceb7b?q=80&w=800&auto=format&fit=crop" alt="Relaxed patient at a routine check-up" loading="lazy">
+                  <div class="ecard__media"><img class="ecard__img" src="https://images.unsplash.com/photo-1611695434369-a8f5d76ceb7b?q=80&w=800&auto=format&fit=crop" alt="Relaxed patient at a routine check-up" loading="lazy"></div>
                   <div class="ecard__body">
                     <p class="ecard__tag">General</p>
                     <h3 class="ecard__quote">“I haven't had a check-up in a while”</h3>
@@ -294,7 +294,7 @@
                   <p class="eyebrow">What we do</p>
                   <h2 class="h-section" id="svc-t-d">Find the care you need, fast.</h2>
                 </div>
-                <a class="btn btn--ghost btn--sm" href="services.html">View All Services</a>
+                <a class="btn btn--ghost btn--sm" href="#">View All Services</a>
               </div>
               <div class="services__grid">
                 <article class="scard">
@@ -354,8 +354,14 @@
                   <p class="wcard__desc">Welcome offers that make your first visit easy.</p>
                 </article>
               </div>
-              <div class="why__insurers">
-                <span class="chip">Delta Dental</span><span class="chip">MetLife</span><span class="chip">Cigna</span><span class="chip">Aetna</span><span class="chip">CareFirst</span><span class="chip">GEHA</span><span class="chip">Guardian</span>
+              <div class="why__insurers logo-strip">
+                <span class="logo-chip"><img src="assets/logos/delta-dental.webp" alt="Delta Dental insurance accepted" loading="lazy"></span>
+                <span class="logo-chip"><img src="assets/logos/metlife.webp" alt="MetLife insurance accepted" loading="lazy"></span>
+                <span class="logo-chip"><img src="assets/logos/cigna.webp" alt="Cigna insurance accepted" loading="lazy"></span>
+                <span class="logo-chip"><img src="assets/logos/aetna.webp" alt="Aetna insurance accepted" loading="lazy"></span>
+                <span class="logo-chip"><img src="assets/logos/carefirst.webp" alt="CareFirst insurance accepted" loading="lazy"></span>
+                <span class="logo-chip"><img src="assets/logos/geha.webp" alt="GEHA insurance accepted" loading="lazy"></span>
+                <span class="logo-chip"><img src="assets/logos/guardian.webp" alt="Guardian insurance accepted" loading="lazy"></span>
               </div>
             </div>
           </section>
@@ -422,24 +428,22 @@
                   <div class="rcard__author"><span class="rcard__avatar">JP</span><span><span class="rcard__name">Jenna P.</span><br><span class="rcard__meta">Washington, D.C. · Google review</span></span></div>
                 </article>
               </div>
-              <div class="seals">
-                <span class="seal"><span class="seal__mark">ADA</span>American Dental Association</span>
-                <span class="seal"><span class="seal__mark">DC</span>D.C. Dental Society</span>
-                <span class="seal"><span class="seal__mark">MD</span>Maryland State Dental Assn.</span>
-                <span class="seal"><span class="seal__mark">AGD</span>Academy of General Dentistry</span>
+              <!-- Insurance logo marquee -->
+              <div class="marquee marquee--logos" aria-label="Insurances we accept">
+                <div class="marquee__track"><div class="marquee__item"><span class="logo-chip"><img src="assets/logos/delta-dental.webp" alt="Delta Dental insurance accepted" loading="lazy"></span><span class="logo-chip"><img src="assets/logos/metlife.webp" alt="MetLife insurance accepted" loading="lazy"></span><span class="logo-chip"><img src="assets/logos/cigna.webp" alt="Cigna insurance accepted" loading="lazy"></span><span class="logo-chip"><img src="assets/logos/aetna.webp" alt="Aetna insurance accepted" loading="lazy"></span><span class="logo-chip"><img src="assets/logos/carefirst.webp" alt="CareFirst insurance accepted" loading="lazy"></span><span class="logo-chip"><img src="assets/logos/geha.webp" alt="GEHA insurance accepted" loading="lazy"></span><span class="logo-chip"><img src="assets/logos/guardian.webp" alt="Guardian insurance accepted" loading="lazy"></span></div><div class="marquee__item"><span class="logo-chip"><img src="assets/logos/delta-dental.webp" alt="Delta Dental insurance accepted" loading="lazy"></span><span class="logo-chip"><img src="assets/logos/metlife.webp" alt="MetLife insurance accepted" loading="lazy"></span><span class="logo-chip"><img src="assets/logos/cigna.webp" alt="Cigna insurance accepted" loading="lazy"></span><span class="logo-chip"><img src="assets/logos/aetna.webp" alt="Aetna insurance accepted" loading="lazy"></span><span class="logo-chip"><img src="assets/logos/carefirst.webp" alt="CareFirst insurance accepted" loading="lazy"></span><span class="logo-chip"><img src="assets/logos/geha.webp" alt="GEHA insurance accepted" loading="lazy"></span><span class="logo-chip"><img src="assets/logos/guardian.webp" alt="Guardian insurance accepted" loading="lazy"></span></div></div>
               </div>
 
               <!-- Smile gallery teaser -->
               <div class="smiles">
                 <div class="smiles__head">
                   <h3 class="smiles__title">Smile Gallery - real before &amp; after</h3>
-                  <a class="link-arrow" href="#">View full gallery <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                  <a class="link-arrow" href="smile-gallery.html">View full gallery <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
                 </div>
                 <div class="smiles__grid">
-                  <img class="smile" src="https://images.unsplash.com/photo-1617812191081-2a24e3f30e45?q=80&w=500&auto=format&fit=crop" alt="Smile gallery - Before" loading="lazy">
-                  <img class="smile" src="https://images.unsplash.com/photo-1609840113929-b130355987e1?q=80&w=500&auto=format&fit=crop" alt="Smile gallery - After" loading="lazy">
-                  <img class="smile" src="https://images.unsplash.com/photo-1647125288686-4ba242f98bbb?q=80&w=500&auto=format&fit=crop" alt="Smile gallery - Before" loading="lazy">
-                  <img class="smile" src="https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2?q=80&w=500&auto=format&fit=crop" alt="Smile gallery - After" loading="lazy">
+                  <a class="smile" href="smile-gallery.html" data-label="Before &amp; After"><img src="https://images.unsplash.com/photo-1617812191081-2a24e3f30e45?q=80&w=500&auto=format&fit=crop" alt="Smile gallery - Before" loading="lazy"></a>
+                  <a class="smile" href="smile-gallery.html" data-label="Before &amp; After"><img src="https://images.unsplash.com/photo-1609840113929-b130355987e1?q=80&w=500&auto=format&fit=crop" alt="Smile gallery - After" loading="lazy"></a>
+                  <a class="smile" href="smile-gallery.html" data-label="Before &amp; After"><img src="https://images.unsplash.com/photo-1647125288686-4ba242f98bbb?q=80&w=500&auto=format&fit=crop" alt="Smile gallery - Before" loading="lazy"></a>
+                  <a class="smile" href="smile-gallery.html" data-label="Before &amp; After"><img src="https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2?q=80&w=500&auto=format&fit=crop" alt="Smile gallery - After" loading="lazy"></a>
                 </div>
               </div>
             </div>
@@ -459,11 +463,11 @@
                     <li class="team__cred"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 11 3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>DDS - Henry M. Goldman School of Dental Medicine, Boston</li>
                     <li class="team__cred"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 11 3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>BDS - Manipal University</li>
                   </ul>
-                  <div class="team__assoc">
-                    <span class="seal"><span class="seal__mark">ADA</span>American Dental Assn.</span>
-                    <span class="seal"><span class="seal__mark">DC</span>D.C. Dental Society</span>
-                    <span class="seal"><span class="seal__mark">MD</span>Maryland State Dental Assn.</span>
-                    <span class="seal"><span class="seal__mark">AGD</span>Academy of General Dentistry</span>
+                  <div class="team__assoc logo-strip logo-strip--cert">
+                    <span class="logo-chip"><img src="assets/logos/cert-boston-university.png" alt="Boston University" loading="lazy"></span>
+                    <span class="logo-chip"><img src="assets/logos/cert-dc-dental-society.png" alt="District of Columbia Dental Society" loading="lazy"></span>
+                    <span class="logo-chip"><img src="assets/logos/cert-ada.png" alt="American Dental Association" loading="lazy"></span>
+                    <span class="logo-chip"><img src="assets/logos/cert-msda.png" alt="Maryland State Dental Association" loading="lazy"></span>
                   </div>
                   <a class="btn btn--secondary" href="#">Meet the Team</a>
                 </div>
